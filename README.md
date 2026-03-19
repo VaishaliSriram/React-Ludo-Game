@@ -1,16 +1,37 @@
-# React + Vite
+ React Ludo Game 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple interactive Ludo scoreboard game built using **React**.
+Players roll a dice and move forward based on the dice value. The first player to reach the target score wins the game.
 
-Currently, two official plugins are available:
+ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+*  Dice roll simulation
+*  Turn-based player system
+*  Score tracking for each player
+*  Winner detection
+*  Reset game functionality
+*  Simple and colorful UI
 
-## React Compiler
+ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* JavaScript
+* CSS
+* Vite
 
-## Expanding the ESLint configuration
+  Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repository:
+
+git clone https://github.com/VaishaliSriram/React-Ludo-Game.git
+
+Install dependencies:
+
+npm install
+
+Run the project:
+
+npm run dev
+
+
+If you like this project, feel free to star the repository.
